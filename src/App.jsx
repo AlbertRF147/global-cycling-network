@@ -101,9 +101,9 @@ function App() {
         )}
         <div>
           {videos.length &&
-            videos.map(({ description, _id, publishDate, title }) => {
+            videos.map(({ description, _id, publishDate, title }, i) => {
               return (
-                <div className={css({ ...styles.video })}>
+                <div key={i} className={css({ ...styles.video })}>
                   <img
                     className={css({ ...styles.thumbnail })}
                     src={`https://img.youtube.com/vi/${_id}/mqdefault.jpg`}
