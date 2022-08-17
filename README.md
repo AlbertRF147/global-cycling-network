@@ -8,6 +8,7 @@ This is my submission for the dev test proposed by GCN. To run it:
 
 Important notes:
 
+- The page should only be tested on iPhone 6 devices.
 - Due to CORS issues with the server (https://www.globalcyclingnetwork.com/api/devtask), I could not fetch the data from my localhost app. Instead, the data is static in a file.
 - The footer is a screengrab due to time constraints.
 - The search bar displays a mock up (screengrab) of what in a future build would be suggestions and recommendations based on previous search history.
